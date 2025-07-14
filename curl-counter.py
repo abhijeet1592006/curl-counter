@@ -17,7 +17,7 @@ mpdraw=mp.solutions.drawing_utils
 up=0
 down=0
 count=0
-cap=cv2.VideoCapture(10)
+cap=cv2.VideoCapture(0)
 
 
 def draw(img,x,y,radius=2,color=(0,0,255),thick=(2)):
